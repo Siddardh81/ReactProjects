@@ -1,6 +1,8 @@
-import StudentCard from "./components/StudentCard";
+//import StudentCard from "./components/StudentCard";
+import Greet from "./components/Greet";
 
-function App() {
+
+/*function App() {
   return (
     <>
       <StudentCard
@@ -16,6 +18,14 @@ function App() {
       />
     </>
   );
+}*/
+function App2() {
+  return (
+    <>
+    <Greet
+      name="Priya"
+    />
+    </>
+  );
 }
-
-export default App;
+export default App2;
